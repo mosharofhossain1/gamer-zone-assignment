@@ -1,0 +1,19 @@
+/* Mobile Device Breakpoint */
+@media screen and (max-width: 600px) {
+    nav{
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    nav .link_item{
+        flex-direction: column;
+    }
+    nav .link_item li{
+        margin-top: 20px;
+    }
+  nav ul .brand_item{
+        margin-top: 20px;
+    }
+}

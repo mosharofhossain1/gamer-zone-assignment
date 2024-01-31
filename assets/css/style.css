@@ -1,0 +1,92 @@
+/* Google Fonts CDN */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+/* Shared CSS Stle Start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+:root {}
+
+body {
+    /* background-color: #fff; */
+
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+/* Shared CSS Stle End */
+
+/* Header Section Style Css Start */
+.header {
+    padding: 20px 0px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.logo span {
+    color: #FF42A5;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav .link_item{
+    display: flex;
+}
+nav ul .brand_item {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px;
+}
+nav ul .fa-youtube{
+    color: red;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: #3C354F;
+}
+
+/* Header Section Style Css End */
