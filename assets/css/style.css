@@ -125,6 +125,7 @@ nav ul li a {
 .banner_container {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .banner_left_content {
