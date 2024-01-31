@@ -115,6 +115,22 @@
     .career_right_content{
         width: 100%;
     }
+    .game_category_section{
+        padding: 20px;
+    }
+    .game_category_container{
+        flex-direction: column;
+    }
+footer{
+    padding: 20px;
+}
+    .footer_contents{
+        text-align: center;
+    }
+
+    .footer_website_links ul{
+        flex-direction: column;
+    }
 }
 
 /* Medium Device Breakpoint */
@@ -235,5 +251,14 @@
     }
     .career_right_content{
         width: 100%;
+    }
+
+    .game_category_section{
+        padding: 20px;
+    }
+    .game_category_container{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+         
     }
 }
