@@ -171,50 +171,109 @@ nav ul li a {
 /* Main Section CSS Start */
 
 /* gammer section Start */
-.weareGamer_section{
+.weareGamer_section {
     margin-top: 60px;
     padding: 50px 0px;
 }
-.gammer_container{
+
+.gammer_container {
     display: flex;
     align-items: center;
     gap: 30px;
 }
-.gamer_left_content{
+
+.gamer_left_content {
     width: 48%;
 }
-.gamer_left_content img{
+
+.gamer_left_content img {
     width: 100%;
 }
-.gamer_right_content{
+
+.gamer_right_content {
     width: 48%;
     text-align: right;
 }
-.gammer_title{
+
+.gammer_title {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-font-size: 48px;
-font-style: normal;
-font-weight: 700;
-margin-bottom: 15px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
 }
-.gamer_desc{
+
+.gamer_desc {
     font-size: 18px;
-font-style: normal;
-font-weight: 400;
-color: #534C64;
-margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 400;
+    color: #534C64;
+    margin-bottom: 30px;
 }
-.purpose_details{
+
+.purpose_details {
     font-size: 24px;
-font-style: normal;
-font-weight: 500;
-color: #534C64;
-margin-top: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 20px;
 }
-.purpose_details p{
+
+.purpose_details p {
     margin-bottom: 10px;
 }
+
 /* gammer section End */
+
+/* Online Game Section Start */
+.online_game_section {
+    padding: 50px 0px;
+    margin-top: 50px;
+}
+
+.game_title_desc {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.game_title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.game_subtitle {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: #534C64;
+    margin-top: 15px;
+}
+
+.game_title span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online_game_container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.game img {
+    width: 100%;
+}
+
+.game_desc {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    color: #534C64;
+    margin-top: 10px;
+}

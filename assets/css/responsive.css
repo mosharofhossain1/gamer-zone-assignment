@@ -57,6 +57,22 @@
     .gamer_right_content{
         width: 100%;
     }
+    .online_game_container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .online_game_section {
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .game{
+        margin-bottom: 20px;
+    }
+    .game_title{
+        font-size: 25px;
+    }
+    .game img {
+        width: 100%;
+    }
 }
 
 /* Medium Device Breakpoint */
@@ -116,6 +132,23 @@
         width: 100%;
     }
     .gamer_right_content{
+        width: 100%;
+    }
+
+    .online_game_container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .online_game_section {
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .game{
+        margin-bottom: 20px;
+    }
+    .game_title{
+        font-size: 30px;
+    }
+    .game img {
         width: 100%;
     }
 }
