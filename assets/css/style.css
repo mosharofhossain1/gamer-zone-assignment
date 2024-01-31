@@ -14,10 +14,34 @@
     margin: 0 auto;
 }
 
-:root {}
+:root {
+    --linear: orange;
+}
+
+.primary_btn {
+    background-color: #FF42A5;
+    padding: 10px 10px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.GoRogue_btn {
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
 
 body {
-    /* background-color: #fff; */
+    background-color: #FCFBFE;
 
     font-family: 'Work Sans', sans-serif;
 }
@@ -35,6 +59,7 @@ li {
 /* Header Section Style Css Start */
 .header {
     padding: 20px 0px;
+    background-color: #fff;
 }
 
 nav {
@@ -64,9 +89,11 @@ nav ul {
     display: flex;
     align-items: center;
 }
-nav .link_item{
+
+nav .link_item {
     display: flex;
 }
+
 nav ul .brand_item {
     display: flex;
     align-items: center;
@@ -74,7 +101,8 @@ nav ul .brand_item {
     background: rgba(11, 2, 35, 0.10);
     padding: 10px;
 }
-nav ul .fa-youtube{
+
+nav ul .fa-youtube {
     color: red;
 }
 
@@ -87,6 +115,54 @@ nav ul li a {
     font-style: normal;
     font-weight: 500;
     color: #3C354F;
+}
+
+/* Banner SEction Start */
+.banner_section {
+    margin-top: 70px;
+}
+
+.banner_container {
+    display: flex;
+    align-items: center;
+}
+
+.banner_left_content {
+    width: 48%;
+}
+
+.banner_title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    color: #0B0223;
+}
+
+.banner_sub_title {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.banner_left_content p {
+    margin-bottom: 10px;
+}
+
+.banner_left_content p img {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.banner_right_content {
+    width: 48%;
+}
+
+.banner_right_content img {
+    width: 100%;
 }
 
 /* Header Section Style Css End */
